@@ -10,3 +10,6 @@ Added a library example using both SAA1064T and GP2Y0A21YK module.
 
 ### 1.0.2 (2017-08-23)
 Added VitconNTC library and example.
+
+### 1.0.3 (2017-12-05)
+Added VitconHT16K33 library and example.
