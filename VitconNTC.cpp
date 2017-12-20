@@ -16,7 +16,6 @@ VitconNTC::VitconNTC()
 {
   // Based on NTC-10KD-5J
   Init(25.0, 10000.0, 4200.0);
-  mResistor = NTC_INIT_RESISTOR;
 }
 
 VitconNTC::VitconNTC(float t0, float r0, float b)
@@ -26,6 +25,7 @@ VitconNTC::VitconNTC(float t0, float r0, float b)
 
 void VitconNTC::Init(float t0, float r0, float b)
 {
+  mResistor = NTC_INIT_RESISTOR;
   this->t0 = t0;
   this->r0 = r0;
   this->b = b;
