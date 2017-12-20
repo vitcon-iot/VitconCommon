@@ -13,3 +13,6 @@ Added VitconNTC library and example.
 
 ### 1.0.3 (2017-12-05)
 Added VitconHT16K33 library and example.
+
+### 1.0.4 (2017-12-20)
+VitconNTC minor bug fixed.
