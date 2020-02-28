@@ -8,7 +8,7 @@
 
 #include "VitconNTC.h"
 #include "Arduino.h"
-#include <Math.h>
+#include <math.h>
 
 using namespace vitcon;
 
